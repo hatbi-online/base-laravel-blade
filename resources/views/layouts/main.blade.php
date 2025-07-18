@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Document</title>
+    <link href="{{ asset('storage/favicon.svg') }}" rel="shortcut icon" type="image/x-icon">
+    <title>Base Laravel Blade</title>
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -13,7 +14,8 @@
 <body>
     @yield('content')
 
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+
+    @yield('scripts')
 </body>
 
 </html>

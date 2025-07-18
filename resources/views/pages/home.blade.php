@@ -2,11 +2,24 @@
 
 @section('content')
     <div>
-        <button class="mb-2 me-2 rounded-full bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:cursor-pointer hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300" type="button">Hello</button>
+        <div class="flex min-h-screen flex-col items-center justify-center">
+            <div class="mb-12 flex items-center justify-center gap-12">
+                <img alt="laravel" class="duration-400 h-16 w-16 transition-all ease-in-out hover:rotate-180" src="{{ asset('images/logo/laravel.png') }}">
+                <img alt="vite" class="duration-400 h-16 w-16 transition-all ease-in-out hover:rotate-180" src="{{ asset('images/logo/vite.png') }}">
+                <img alt="blade" class="duration-400 h-16 w-16 transition-all ease-in-out hover:rotate-180" src="{{ asset('images/logo/blade.svg') }}">
+            </div>
 
-
-        <div class="mb-4 rounded-lg bg-blue-50 p-4 text-sm text-blue-800" role="alert">
-            <span class="font-medium">Info alert!</span> Change a few things up and try submitting again.
+            <a href="https://github.com/orgs/hatbi-online/repositories" target="_blank" class="mb-4 rounded-full bg-orange-500 px-5 py-2.5 text-center text-sm font-medium text-white hover:cursor-pointer hover:bg-orange-600 focus:outline-none focus:ring-4 focus:ring-orange-300" type="button">Nhấn vào đây</a>
         </div>
+
     </div>
+@endsection
+
+@section('scripts')
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('hello!');
+
+        });
+    </script>
 @endsection

@@ -6,6 +6,12 @@
 
 - Vite | v6.3.3
 
+- Tailwind CSS | v4.1.4
+
+- Flowbite | v3.1.2
+
+- Blade Icons (Tabler Pack) | v3.34
+
 ## Requirements
 
 - PHP >= 8.1
@@ -38,6 +44,11 @@ cp .env.example .env
 * Generate application key
 ```bash
 php artisan key:generate
+```
+
+* Link storage directory
+```bash
+php artisan storage:link
 ```
 
 * Run migrations
