@@ -8,6 +8,12 @@
 
 ## Requirements
 
+- PHP >= 8.1
+- Composer
+- Node.js >= 20.0
+- NPM or Yarn
+- MySQL database
+
 ## Installation
 
 * Install php packages using composer
@@ -56,4 +62,8 @@ npm run dev
 * Start the development server
 ```bash
 php artisan serve
+
+# or run with custom host and port
+
+php artisan serve --host=localhost --port=8000
 ```
