@@ -61,7 +61,7 @@ npm run dev
 
 * Start the development server
 ```bash
-php artisan serve
+composer run dev
 
 # or run with custom host and port
 
