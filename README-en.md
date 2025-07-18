@@ -7,8 +7,6 @@ Base Laravel Blade is a starter template for Laravel applications that uses Tail
 
 - Laravel | v10.10
 
-- PHP | v8.1
-
 - Vite | v6.3.3
 
 - Tailwind CSS | v4.1.4

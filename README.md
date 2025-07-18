@@ -3,11 +3,9 @@
 ## Mô tả
 Base Laravel Blade là một template khởi đầu cho các ứng dụng Laravel, sử dụng Tailwind CSS và Flowbite để tạo kiểu. Nó mang đến một thiết kế sạch sẽ, hiện đại, tập trung vào tính sử dụng và hiệu năng. Template bao gồm bố cục responsive, các component dựng sẵn và quy trình thiết lập đơn giản giúp bạn bắt đầu nhanh chóng.
 
-## Công nghệ sử dụng
+## Công nghệ và thư viện sử dụng
 
 - Laravel | v10.10
-
-- PHP | v8.1
 
 - Vite | v6.3.3
 
