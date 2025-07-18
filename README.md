@@ -1,4 +1,9 @@
-## Using
+# BASE LARAVEL BLADE VỚI TAILWIND CSS BỞI HATBI
+
+## Mô tả
+Base Laravel Blade là một template khởi đầu cho các ứng dụng Laravel, sử dụng Tailwind CSS và Flowbite để tạo kiểu. Nó mang đến một thiết kế sạch sẽ, hiện đại, tập trung vào tính sử dụng và hiệu năng. Template bao gồm bố cục responsive, các component dựng sẵn và quy trình thiết lập đơn giản giúp bạn bắt đầu nhanh chóng.
+
+## Công nghệ sử dụng
 
 - Laravel | v10.10
 
@@ -12,7 +17,7 @@
 
 - Blade Icons (Tabler Pack) | v3.34
 
-## Requirements
+## Yêu cầu hệ thống
 
 - PHP >= 8.1
 - Composer
@@ -20,61 +25,61 @@
 - NPM or Yarn
 - MySQL database
 
-## Installation
+## Hướng dẫn cài đặt
 
-* Install php packages using composer
+* Cài đặt các gói và thư viện php bằng composer
 ```bash
 composer install
 ```
 
-* Install node packages using npm
+* Cài đặt các gói và thư viện node
 ```bash
 yarn install
 
-# or
+# hoặc
 
 npm install
 ```
 
-* Create `.env` file from `.env.example` and set your environment variables
+* Tạo file `.env` từ `.env.example` và thiết lập các biến môi trường
 ```bash
 cp .env.example .env
 ```
 
-* Generate application key
+* Tạo key ứng dụng
 ```bash
 php artisan key:generate
 ```
 
-* Link storage directory
+* Link thư mục storage
 ```bash
 php artisan storage:link
 ```
 
-* Run migrations
+* Chạy migrations
 ```bash
 php artisan migrate
 ```
 
-* Seed the database with initial data
+* Seed database với dữ liệu khởi tạo
 ```bash
 php artisan db:seed
 ```
 
-* Compile assets
+* Biên dịch các file assets
 ```bash
 yarn dev
 
-# or
+# hoặc
 
 npm run dev
 ```
 
-* Start the development server
+* Khởi chạy ứng dụng
 ```bash
 composer run dev
 
-# or run with custom host and port
+# hoặc chạy với host và port tùy chỉnh
 
 php artisan serve --host=localhost --port=8000
 ```
