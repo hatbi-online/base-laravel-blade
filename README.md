@@ -1,7 +1,9 @@
 # BASE LARAVEL BLADE VỚI TAILWIND CSS BỞI HATBI
 
 ## Mô tả
-Base Laravel Blade là một template khởi đầu cho các ứng dụng Laravel, sử dụng Tailwind CSS và Flowbite để tạo kiểu. Nó mang đến một thiết kế sạch sẽ, hiện đại, tập trung vào tính sử dụng và hiệu năng. Template bao gồm bố cục responsive, các component dựng sẵn và quy trình thiết lập đơn giản giúp bạn bắt đầu nhanh chóng.
+Base Laravel Blade là một Framework chuyên để xây dựng các website SSR, sử dụng Tailwind CSS và Flowbite để tạo giao diện.
+Nó mang đến một thiết kế sạch sẽ, hiện đại, tập trung vào tính sử dụng và hiệu năng.
+Framework với bố cục responsive, bao gồm các thư viện thường sử dụng được cài đặt sẵn và quy trình thiết lập đơn giản giúp bạn bắt đầu nhanh chóng.
 
 ## Công nghệ và thư viện sử dụng
 
